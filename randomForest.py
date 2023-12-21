@@ -45,7 +45,7 @@ class RandomForest:
         idxs = np.random.choice(n_samples, n_samples, replace=True)
         return X[idxs], y[idxs]
     
-class DecisionTree:123
+class DecisionTree:
     def __init__(self, max_depth=None, min_samples_split=2, n_features=None):
         self.max_depth = max_depth
         self.min_samples_split = min_samples_split
