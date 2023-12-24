@@ -15,7 +15,7 @@ import warnings
 
 # Load background image
 def add_bg_from_local(image_file):
-    with open("C:/Users/iq22b/OneDrive/Desktop/jupyter/pic3.png", "rb") as image_file:
+    with open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/image/pic3.png", "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
     st.markdown(
     f"""
@@ -48,7 +48,7 @@ def main():
     if selected == "About":
         st.title("About The Project")
 
-        image = Image.open("C:/Users/iq22b/OneDrive/Desktop/jupyter/pic2.jpg")
+        image = Image.open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/image/pic2.jpg")
         st.image(image, caption='random picture')
 
         '''
@@ -77,18 +77,18 @@ def main():
 
         '''
                
-        image = Image.open("C:/Users/iq22b/OneDrive/Desktop/jupyter/table.jpg")
+        image = Image.open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/image/table.jpg")
         st.image(image, caption='Definition of each feature')
         
         
         st.title("Accuracy")        
-        image = Image.open("C:/Users/iq22b/OneDrive/Desktop/jupyter/fc.png")
+        image = Image.open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/image/fc.png")
         st.image(image, caption='Classification Evaluation Metrics')
         
-        image = Image.open("C:/Users/iq22b/OneDrive/Desktop/jupyter/fcc.png")
+        image = Image.open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/image/fcc.png")
         st.image(image, caption='Confusion Metrics')
         
-        image = Image.open("C:/Users/iq22b/OneDrive/Desktop/jupyter/9.png")
+        image = Image.open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/image/9.png")
         st.image(image, caption='ROC')
         
 
