@@ -15,3 +15,6 @@ the results of either "Heart Disease" or "NO Heart Disease".
 
         Coding to build and train KNN and SVC is not placed here because
         this github project focuses only on Random Forest.
+
+# DataSet
+taken from Kaggel: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download
