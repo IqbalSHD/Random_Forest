@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 from random import random
+from decisionTree import DecisionTree
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import seaborn as sns
