@@ -8,7 +8,8 @@
 
 # GUI
 Fill in 13 patient data and press the "Predict" button to get
-the results of either "Heart Disease" or "NO Heart Disease"
+the results of either "Heart Disease" or "NO Heart Disease".
+
     In folder model has extra trained ModelKNN and ModelSVC that will be used and call by gui.py.
     without it gui cannaot run prefetly.
 
