@@ -104,7 +104,7 @@ def main():
             st.write('Enter the following information to predict heart disease:')
             
             # Load the trained model
-            model_path = "C:/Users/iq22b/OneDrive/Desktop/sem6/csp650/model/TrainModel3"
+            model_path = "C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/model/TrainModel"
             model = joblib.load(model_path)
 
             # Define the feature labels
@@ -162,11 +162,11 @@ def main():
         
         with tab2:
             # Load the KNN model
-            with open("C:/Users/iq22b/OneDrive/Desktop/sem6/csp650/model/ModelKNN", 'rb') as f:
+            with open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/model/ModelKNN", 'rb') as f:
                 knn_scores = cPickle.load(f)
 
             # Load the heart disease dataset
-            dataset = pd.read_csv("C:/Users/iq22b/OneDrive/Desktop/jupyter/heart.csv")
+            dataset = pd.read_csv("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/heart.csv")
             y = dataset['target']
             X = dataset.drop(['target'], axis=1)
 
@@ -205,7 +205,7 @@ def main():
 
         with tab3:
             # Load the trained SVC models
-            with open("C:/Users/iq22b/OneDrive/Desktop/sem6/csp650/model/ModelSVC.pickle", 'rb') as f:
+            with open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/model/ModelSVC.pickle", 'rb') as f:
                 svc_models = cPickle.load(f)
 
             # Streamlit GUI
@@ -244,19 +244,19 @@ def main():
         st.write('Enter the following information to predict heart disease:')
         
         # Load the trained model
-        model_path = "C:/Users/iq22b/OneDrive/Desktop/sem6/csp650/model/TrainModel3"
+        model_path = "C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/model/TrainModel"
         model = joblib.load(model_path)
 
         # Load the trained model knn
-        model_pathknn = "C:/Users/iq22b/OneDrive/Desktop/sem6/csp650/model/ModelKNN"
+        model_pathknn = "C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/model/ModelKNN"
         knn_scores = joblib.load(model_pathknn)
         
         # Load the trained model svc
-        model_pathsvc = "C:/Users/iq22b/OneDrive/Desktop/sem6/csp650/model/ModelSVC.pickle"
+        model_pathsvc = "C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/model/ModelSVC.pickle"
         svc_models = joblib.load(model_pathsvc)
         
         # Load the heart disease dataset
-        dataset = pd.read_csv("C:/Users/iq22b/OneDrive/Desktop/jupyter/heart.csv")
+        dataset = pd.read_csv("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/heart.csv")
         y = dataset['target']
         X = dataset.drop(['target'], axis=1)
 
