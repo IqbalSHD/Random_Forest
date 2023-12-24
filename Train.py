@@ -59,5 +59,5 @@ plt.show()
 print(auc(fpr, tpr))
 
 import pickle as cPickle
-with open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/TrainModel",'wb') as f:
+with open("C:/Users/iq22b/OneDrive/Documents/Randoom_Forest/model/TrainModel",'wb') as f:
     cPickle.dump(clf,f)
