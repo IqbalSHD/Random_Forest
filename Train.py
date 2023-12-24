@@ -9,8 +9,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
     
-
-### start tarining
      
 ds = pd.read_csv("heart.csv")
 X = ds.iloc[:, :-1].values  # Convert X to a NumPy array   
