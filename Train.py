@@ -10,9 +10,6 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
     
 
-
-
-    
 ### start tarining
      
 ds = pd.read_csv("heart.csv")
