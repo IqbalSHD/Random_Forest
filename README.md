@@ -1,4 +1,4 @@
-# Randoom Forest
+# Randoom Forest (without library)
  Heart Disease Prediction Using Random Forest
 
     This project was made for the Final Year Project(FYP) of the final semester.
