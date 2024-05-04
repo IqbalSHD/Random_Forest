@@ -4,7 +4,7 @@
     This project was made for the Final Year Project(FYP) of the final semester.
 
     randomForest.py will call DecisioTree and file Train.py will call randomForest.
-    Train.py will create train model and save it in folder model .
+    Train.py will create train model and save it in folder model.
 
 # GUI (build using Streamlit)
 Fill in 13 patient data and press the "Predict" button to get
